@@ -1,0 +1,46 @@
+body {
+  background-color: red;
+  color: white;
+}
+
+header {
+  background-color: yellow;
+}
+
+section {
+  background-color: blue;
+  color: orange;
+}
+
+#about {
+  background-color: whitesmoke;
+  color: rgb(0, 255, 4);
+}
+
+#boxmodel,
+#units {
+  background-color: gray;
+  color: rgb(0, 255, 4);
+}
+
+#fonts {
+  background-color: rgb(241, 185, 185);
+  color: rgb(0, 255, 4);
+}
+
+h2 {
+  color: darkgray;
+}
+
+.codebox {
+  background-color: teal;
+}
+
+section.codebox{ 
+background-coler: teal;
+}
+
+/*kun liste inde i nav, der fjernes prikker på*/
+nav>ul{
+    list-style-type: none;
+}
