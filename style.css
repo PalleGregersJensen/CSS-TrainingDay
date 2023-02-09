@@ -12,7 +12,7 @@ section {
   color: orange;
 }
 
-#about {
+#about p b {
   background-color: whitesmoke;
   color: rgb(0, 255, 4);
 }
@@ -41,6 +41,18 @@ background-coler: teal;
 }
 
 /*kun liste inde i nav, der fjernes prikker på*/
-nav>ul{
-    list-style-type: none;
+nav>ul {
+  background-color: skyblue;
+  margin: 40 px;
+  padding: 40 px;
+  list-style-type: none;
+}
+
+#about h1 {
+  width: 50;
+  height: 15 px;
+}
+
+#about img {
+  max-width: 30%
 }
